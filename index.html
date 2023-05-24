@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mini Project Week 4</title>
+    <link rel="stylesheet" type="text/css" href="MiniProjectCSS.css" />
+
+    <script type="text/javascript" src="MiniProjectJS.js"></script>
+</head>
+<div style="text-align: center;">
+
+    <body style="background-color: rgb(1, 36, 72); font-family: Georgia, 'Times New Roman', Times, serif; color: chartreuse;">
+        <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+        <h1>Play with Filters</h1>
+        <p id="intro">Upload Your image and try new filters!</p>
+        <canvas id="can1"></canvas>
+
+        <p id="upload">
+            Upload Your Image Here :
+            <input type="file" multiple="false" accept="image/*" id="file1" onchange="loadImg()">
+        </p>
+        <p id="main">
+            Click to apply :
+            <input type="button" value="Greyscale" id="grey" onclick="doGrey()">
+            <input type="button" value="Red" id="red" onclick="doRed()">
+            <input type="button" value="Negative" id="negative" onclick="doNegative()">
+            <input type="button" value="Rainbow Horizontal" id="rainH" onclick="doRainbowH()">
+            <br><br> Click to Display Original Image :
+            <input type="button" value="Original" onclick="doReset()" id="original">
+        </p>
+    </body>
+</div>
+
+</html>
