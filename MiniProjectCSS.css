@@ -1,0 +1,32 @@
+canvas {
+    border: 1px solid rgb(255, 255, 255);
+    width: 600px;
+    height: 420px;
+}
+
+#intro {
+    font-style: italic;
+    font-size: small;
+    color: brown;
+}
+
+#main {
+    font-size: x-large;
+}
+
+#upload {
+    font-size: x-large;
+}
+
+h1 {
+    border-style: dashed;
+    width: fit-content;
+    margin: 0px auto;
+    color: chartreuse;
+}
+
+body {
+    background-image: url('pexels-jakub-novacek-924824.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
